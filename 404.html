@@ -11,61 +11,29 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
 
-    <!-- Inline Styles -->
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #111827; /* Adjust this to match the desired background color */
-            color: #fff;
-            padding: 8px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
             overflow: hidden; /* Hides the scrollbar */
-        }
-
-        h1 {
-            font-size: 4xl;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-
-        h2 {
-            font-size: 2xl;
-            font-weight: semi-bold;
-            margin-bottom: 8px;
-        }
-
-        p {
-            font-size: base;
-            margin-bottom: 8px;
-        }
-
-        a {
-            color: #3182ce;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.3s ease-in-out;
-        }
-
-        a:hover {
-            border-color: #3182ce;
         }
     </style>
 </head>
 
-<body>
+<body class="bg-gray-900 text-white flex flex-col justify-center items-center h-screen m-0 p-8 text-center">
     <header>
-        <h1>404 - Page Not Found</h1>
-        <h2>The page you are looking for might have been removed or is temporarily unavailable.</h2>
+        <h1 class="text-6xl font-extrabold mb-4 animate-pulse">404</h1>
+        <h2 class="text-2xl font-semibold mb-4">Page Not Found</h2>
     </header>
 
     <main>
-        <p>Go back to <a href="/">Homepage</a></p>
+        <p class="text-lg mb-8">The page you are looking for might have been removed or is temporarily unavailable.</p>
+        <a href="/" class="px-6 py-3 bg-blue-500 text-white font-semibold rounded-full hover:bg-blue-600 transition ease-in-out duration-300">Go to Homepage</a>
     </main>
+
+    <footer class="absolute bottom-4 text-gray-400">
+        <p>&copy; 2024 Open Domains - All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
