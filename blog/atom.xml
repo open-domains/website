@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/blog</id>
+    <id>https://open-domains.net/blog</id>
     <title>Open Domains Blog</title>
     <updated>2024-09-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
+    <link rel="alternate" href="https://open-domains.net/blog"/>
     <subtitle>Open Domains Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <icon>https://open-domains.net/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
+        <id>https://open-domains.net/blog/welcome</id>
+        <link href="https://open-domains.net/blog/welcome"/>
         <updated>2024-09-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the Open Domains blog! This is the first post on the blog, and I'm excited to share more about the project with you. Open Domains is a project that aims to provide free domain names to anyone who wants one. We believe that everyone should have access to the tools they need to create a website, and we want to make it as easy as possible for people to get started.]]></summary>
         <content type="html"><![CDATA[<p>Welcome to the Open Domains blog! This is the first post on the blog, and I'm excited to share more about the project with you. Open Domains is a project that aims to provide free domain names to anyone who wants one. We believe that everyone should have access to the tools they need to create a website, and we want to make it as easy as possible for people to get started.</p>]]></content>
         <author>
             <name>AndrewsTech</name>
-            <uri>https://github.com/yang</uri>
+            <uri>https://github.com/andrewstech</uri>
         </author>
         <category label="Open Domains" term="Open Domains"/>
     </entry>

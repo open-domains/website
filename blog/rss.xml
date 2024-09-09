@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Open Domains Blog</title>
-        <link>https://your-docusaurus-site.example.com/blog</link>
+        <link>https://open-domains.net/blog</link>
         <description>Open Domains Blog</description>
         <lastBuildDate>Mon, 02 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://your-docusaurus-site.example.com/blog/welcome</link>
-            <guid>https://your-docusaurus-site.example.com/blog/welcome</guid>
+            <link>https://open-domains.net/blog/welcome</link>
+            <guid>https://open-domains.net/blog/welcome</guid>
             <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the Open Domains blog! This is the first post on the blog, and I'm excited to share more about the project with you. Open Domains is a project that aims to provide free domain names to anyone who wants one. We believe that everyone should have access to the tools they need to create a website, and we want to make it as easy as possible for people to get started.]]></description>
             <content:encoded><![CDATA[<p>Welcome to the Open Domains blog! This is the first post on the blog, and I'm excited to share more about the project with you. Open Domains is a project that aims to provide free domain names to anyone who wants one. We believe that everyone should have access to the tools they need to create a website, and we want to make it as easy as possible for people to get started.</p>]]></content:encoded>
