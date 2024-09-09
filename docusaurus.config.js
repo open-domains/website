@@ -77,7 +77,7 @@ const config = {
         title: 'Open Domains',
         logo: {
           alt: 'Open Domains Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
