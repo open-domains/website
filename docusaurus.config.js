@@ -88,7 +88,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/open-domains/',
+            href: 'https://github.com/open-domains/register',
             label: 'GitHub',
             position: 'right',
           },
