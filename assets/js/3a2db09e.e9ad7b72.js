@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopendomains=self.webpackChunkopendomains||[]).push([[121],{8070:s=>{s.exports=JSON.parse('{"tags":[{"label":"Open Domains","permalink":"/blog/tags/domains/","description":"Open Domains Tag","count":1}]}')}}]);
