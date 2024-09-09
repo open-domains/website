@@ -1,11 +1,21 @@
 andrewstech:
   name: AndrewsTech
   title: Owner of OpenDomains
-  url: https://github.com/yang
+  url: https://github.com/andrewstech
   image_url: https://github.com/andrewstech.png
   page: true
   socials:
     x: andrewstech1
     github: andrewstech
+
+
+wdhdev:
+  name: William Harrison
+  title: Maintainer
+  url: https://wdharrison.com/
+  image_url: https://github.com/wdhdev.png
+  page: true
+  socials:
+    github: wdhdev    
 
 
