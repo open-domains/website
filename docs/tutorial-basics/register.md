@@ -64,6 +64,6 @@ To register a new subdomain, follow these steps:
 
 ## **Enjoy Your New Domain!**
 
-If you have any questions or run into issues, feel free to [ask for help](https://github.com/username/repo/issues).
+If you have any questions or run into issues, feel free to [ask for help](https://github.com/open-domains/register/issues).
 
 Happy domain registration!
