@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Open-Domains offers free subdomains with simple GitHub-based setup. Claim yours today."/>
+  <title>Open-Domains – Free Subdomains for Everyone</title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3119327652471615"
+     crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #24292e;
+      color: #f6f8fa;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 6px;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    .cta a {
+      display: inline-block;
+      margin: 10px;
+      padding: 0.75rem 1.5rem;
+      background: #0366d6;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .faq dt {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .faq dd {
+      margin-left: 1rem;
+    }
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+    pre {
+      background: #f0f0f0;
+      padding: 10px;
+      overflow-x: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 style="color: #58a6ff;">Open-Domains</h1>
+  <p>Free subdomains for everyone – no catch, no cost.</p>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#how">How It Works</a>
+    <a href="#faq">FAQ</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Claim Your Free Subdomain</h2>
+  <p>
+    Open-Domains is a community project offering free subdomains on <strong>open.domains</strong>. 
+    There’s no registration form – just fork our GitHub repo, request your subdomain, and you’re live.
+  </p>
+  <div class="cta">
+    <a href="https://github.com/open-domains/register">Request a Subdomain</a>
+    <a href="#how">Read Instructions</a>
+  </div>
+</section>
+
+<section id="features">
+  <h2>Why Choose Open-Domains?</h2>
+  <ul>
+    <li><strong>Free Forever:</strong> No payment, no hidden costs.</li>
+    <li><strong>Developer Friendly:</strong> Use it for GitHub Pages, Netlify, or Vercel.</li>
+    <li><strong>Manual Approval:</strong> We keep the namespace clean and spam-free.</li>
+    <li><strong>Simple DNS:</strong> Just add a JSON entry and you're done.</li>
+    <li><strong>Trusted Infrastructure:</strong> Sponsored by Cloudflare for DNS resolution.</li>
+    <li><strong>Public Suffix List:</strong> All domains are included in the <a href="https://publicsuffix.org/">Public Suffix List</a> to ensure isolation and safety.</li>
+  </ul>
+</section>
+
+<section id="how">
+  <h2>How It Works</h2>
+  <ol>
+    <li>Fork the <a href="https://github.com/open-domains/register">GitHub repository</a>.</li>
+    <li>Open the file named <code>domains.json</code>.</li>
+    <li>Add your desired subdomain in the correct format. For example:
+      <pre><code>{
+  "example": {
+    "A": ["1.2.3.4"],
+    "CNAME": ["example.github.io"],
+    "MX": ["mx.example.com"]
+  }
+}</code></pre>
+    </li>
+    <li>Commit your changes and create a pull request.</li>
+    <li>Wait for approval by a maintainer (usually within 24–48 hours).</li>
+    <li>Once approved, your subdomain will be live on the DNS!</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Available Domains</h2>
+  <p>Currently, Open-Domains offers subdomains under the following domains:</p>
+  <ul>
+    <li><strong>is-a-fullstack.dev</strong></li>
+    <li><strong>is-cool.dev</strong></li>
+    <li><strong>is-local.org</strong></li>
+    <li><strong>is-not-a.dev</strong></li>
+    <li><strong>localplayer.dev</strong></li>
+  </ul>
+</section>
+
+<section id="faq" class="faq">
+  <h2>Frequently Asked Questions</h2>
+  <dl>
+    <dt>Is it really free?</dt>
+    <dd>Yes, 100% free with no ads or upsells. We do it for the open-source community.</dd>
+
+    <dt>Do I need to register?</dt>
+    <dd>Nope – just submit a PR via GitHub and you're set.</dd>
+
+    <dt>Can I point to my GitHub Pages or Vercel project?</dt>
+    <dd>Absolutely. You can point to any service that accepts custom domains.</dd>
+
+    <dt>How long does it take to approve?</dt>
+    <dd>We usually approve valid requests within 1–2 days.</dd>
+  </dl>
+</section>
+
+<section id="about">
+  <h2>About Open-Domains</h2>
+  <p>
+    Open-Domains is a volunteer-run project inspired by the spirit of open source. Our goal is to give developers and hobbyists a place to host their websites, experiments, and portfolios without having to pay for a domain.
+  </p>
+  <p>
+    We use the <a href="https://publicsuffix.org/">Public Suffix List</a> to help ensure each subdomain behaves as an isolated identity. This is important for web security and cookie sandboxing.
+  </p>
+  <p>
+    Thanks to <a href="https://www.cloudflare.com/">Cloudflare</a>, all DNS records are powered by fast, secure infrastructure. We are proud to be a sponsored partner.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    For support or questions, please open an issue on our <a href="https://github.com/open-domains/register">GitHub repository</a> or email us at <strong>hello@open-domains.net</strong>.
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Open-Domains. All rights reserved.</p>
+  <p><a href="https://github.com/open-domains/register/blob/main/terms.md">Terms</a></p>
+</footer>
+
+</body>
+</html>
